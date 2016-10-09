@@ -1,0 +1,47 @@
+﻿#pragma strict
+var face : GameObject;
+private var enterTrigger = false;
+private var hasPlayed = false;
+var screamingSound : AudioClip;
+
+var player : GameObject;
+private var startPos: Vector3;
+private var endPos: Vector3;
+var speed = 30.0;
+private var startTime: float;
+private var distance: float;	
+private var duration = 0;
+
+function Start () {
+	enterTrigger = false;
+	startPos = face.transform.position;
+	face.GetComponent.<Renderer>().enabled = false;
+}
+
+function Update () {
+	if (enterTrigger == true && hasPlayed == false) {
+
+		// var distCovered = (Time.time - startTime) * speed;
+		// var fracJourney = distCovered / distance;
+		face.transform.position = Vector3.Lerp(startPos, endPos, 0.15);
+		
+		// if (fracJourney > 1.0) {
+		if (duration > 0) {
+			hasPlayed = true;
+			DestroyObject (face);
+		}
+		
+		duration += 1;
+	}
+}
+
+function OnTriggerEnter(other : Collider) {
+	if (hasPlayed == false && enterTrigger == false) {
+		enterTrigger = true;
+		startTime = Time.time;
+		endPos = player.transform.position;
+		distance = Vector3.Distance(startPos, endPos);
+		GetComponent.<AudioSource>().PlayOneShot(screamingSound);
+		face.GetComponent.<Renderer>().enabled = true;
+	}
+}
