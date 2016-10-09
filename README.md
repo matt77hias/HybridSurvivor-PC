@@ -32,3 +32,8 @@ Oh one small detail I forgot mentioning: *Do not look into his eyes...*
 
 **Building**:
 * Unity 3D (tested on version 5<)
+
+## Thanks
+* [MasterDevelopers](http://masterdevelopers.altervista.org/): Slender assets
+* [staffantan](https://github.com/staffantan/unityglitch): Glitch effect
+* [Will Goldstone](http://unitybook.net/): Battery asset
