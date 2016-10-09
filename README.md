@@ -1,4 +1,4 @@
-# HybridSurvivor for PC and Web
+# [HybridSurvivor](https://github.com/matt77hias/HybridSurvivor) for PC and Web
 
 Course Capita Selecta Human Computer Interaction and Multimedia: Game Design: Hybrid Survivor
 
