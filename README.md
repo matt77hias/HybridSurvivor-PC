@@ -1,4 +1,4 @@
-# HybridSurvivor
+# HybridSurvivor for PC and Web
 
 Course Capita Selecta Human Computer Interaction and Multimedia: Game Design: Hybrid Survivor
 
