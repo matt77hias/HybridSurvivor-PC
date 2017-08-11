@@ -1,3 +1,10 @@
+<img align="left" src="res/HybridSurvivor.png" width="120px"/>
+
+[![License][s1]][li]
+
+[s1]: https://img.shields.io/badge/licence-GPL%203.0-blue.svg
+[li]: https://raw.githubusercontent.com/matt77hias/HybridSurvivor-PC/master/LICENSE.txt
+
 # [HybridSurvivor](https://github.com/matt77hias/HybridSurvivor) for PC and Web
 
 Course Capita Selecta Human Computer Interaction and Multimedia: Game Design: Hybrid Survivor
