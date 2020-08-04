@@ -28,8 +28,8 @@ Oh one small detail I forgot mentioning: *Do not look into his eyes...*
 
 ## Use
 <p align="center">
-<img src="res/Mazes/Hybrid%20Survivor_Easy.jpg" width="429">
-<img src="res/Mazes/Hybrid%20Survivor_Pro.jpg" width="429">
+<img src="res/Mazes/Hybrid%20Survivor_Easy.jpg" width="410">
+<img src="res/Mazes/Hybrid%20Survivor_Pro.jpg" width="410">
 </p>
 <p align="center">Easy map - Hard map</p>
 
